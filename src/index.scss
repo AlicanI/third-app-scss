@@ -1,0 +1,14 @@
+@import "./style/Variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  background: $base-background-color;
+}
+
+body {
+  margin: 0;
+}

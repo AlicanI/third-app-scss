@@ -1,0 +1,18 @@
+@import "../../../style/Variables.scss";
+
+.button {
+  font: inherit;
+  border: 1px solid $purple-color;
+  background-color: $purple-color;
+  color: $white-color;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  &:hover,
+  &:active {
+    background-color: $light-purple-color;
+    border-color: $light-purple-color;
+  }
+  &:focus {
+    outline: none;
+  }
+}
